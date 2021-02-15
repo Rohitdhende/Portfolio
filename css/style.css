@@ -464,7 +464,7 @@ color: grey;
 }
 textarea{
 	width: 100%;
-	background:transparent;
+	background:black;
 	color: white;
 
 }
@@ -475,7 +475,7 @@ textarea:focus{
 }
 input{
 	color: white;
-	background:transparent;
+	background:black;
 	border:none;
 	margin: 10px 0 10px 0;
 	width: 100%;
