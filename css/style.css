@@ -173,7 +173,7 @@ p{
 
 
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 414px) and (max-width: 896px) {
 .emote{
 		height: 30px;
 	}
@@ -217,7 +217,7 @@ p{
 	}
 }
 
-@media screen and (min-width: 360px) and (max-width: 480px){
+@media screen and (min-width: 360px) and (max-width: 640px){
 
 	.emote{
 		height: 30px;
