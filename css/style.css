@@ -413,11 +413,12 @@ transition: 0.1s;
 }*/
 
 .child{
+	/*border:2px solid white;*/
 	text-decoration: none;
 	border:1px solid grey;
-	flex:1 1 200px;
-	margin: 20px;
-	height: 200px;
+	flex:1 1 190px;
+	margin: 10px;
+	height: 190px;
 	border-radius: 20px;
 	cursor: pointer;
 	transition: 0.2s;
