@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/38eefc1e9f.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/logo3.png" type="image/gif" sizes="16x16">
+
+</head>
+<body>
+	<!-- Navbar -->
+	<div class="navbar">
+		<img class="logo" src="assets/logo3.png">
+    	<div class="links">
+	        <ul>
+	            <li id="link1" onclick="rsd1()" class="item" onmouseover="mouseOver1()" onmouseout="mouseOut1()">
+	            	<a class="connectives" onclick="rsd1()"  href="#section2">About Me
+	            		<div id="d1" onclick="location.href='#section2'" class="dots">           		
+	            		</div>
+	            	</a>
+	            </li>        
+	            <li id="link2" onclick="rsd2()" class="item" onmouseover="mouseOver2()" onmouseout="mouseOut2()">
+	            	<a class="connectives" href="#section3">My Work
+	            		<div id="d2" onclick="location.href='#section2'"  class="dots">           			
+	            		</div>
+	            	</a>
+	            </li>
+	            <li id="link3" onclick="rsd3()" class="item" onmouseover="mouseOver3()" onmouseout="mouseOut3()">
+	            	<a class="connectives" href="#section4">Contact Me
+	            		<div id="d3" onclick="location.href='#section2'"  class="dots">	
+	            		</div>
+	            	</a>
+	            </li>
+	      <!--       <li class="toggle"><a href="#"><span class="bars"></span></a></li> -->
+	        </ul>   
+    	</div>
+	</div>
+<!-- Navbar Ends Here -->
+
+<!-- Top Button -->
+	<a onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></a>
+<!-- Top Button Ends Here -->
+
+<!-- Landing Page Section -->
+	<div id="jonsleve" class="section1-holder">
+		<div class="left-holder">
+			<span class="heading-text">H<span class="exclamation">!</span><!-- </span> <span class="heading-text">Rohit <span class="dhende">Dhende</span> here</span> <span class="heading-text">And</span> --><p>I</p><p> am</p> <p>a</p> <span class="exclamation">Graphic <br>Designer
+			</span> 
+		</div>
+		<div class="right-content">
+			<div class="img__wrap">
+					<img id="me"src="assets/halfsketch.png">
+					<p class="img__description">JonSleve</p>
+			</div>
+		
+		</div>
+	</div>
+	<div class="myName">
+		Rohit <span class="dhende">Dhende</span>
+	</div>
+<!-- Landing Page Section Ends Here -->
+
+<!-- About Me Section Starts here -->
+	<div class="section2-holder" id="section2">
+		<span class="about-me-head">About Me</span>
+		<h1>Hello Again!</h1>	
+		<p style="font-size: 20px">Hope you guys are doing well<img class="emote" src="assets/happyg.png" alt="JonSleve"></p>
+		<span class="about-me-container">
+		<p>I am a passionate Graphic Designer. Having 4+ years of experience in this field.</p>
+		<p>Currently pursing an Engineering Degree in IT stream.</p>
+		<p>Had completed Full Stack Developement Course in well known entity(theSurge).</p>
+		<p>Also have a YouTube Channel named as <span class="green">JonSleve</span> with around 247 subscribers. I do upload Sketching and Gaming related videos.</p>
+		<p>Photoshop is Love &#10084;</p>
+<!-- 		<p class="about-me-para">I am a passionate Graphic Designer. Having 4+ years of experience in this field.
+		Currently pursing an Engineering Degree in IT stream.
+		Had completed Full Stack Developement Course in well known entity(theSurge).
+		Also have a YouTube Channel named as <span class="green">JonSleve</span> with around 247 subscribers. I do upload Sketching and Gaming related videos.</p> -->
+		</span>
+
+	</div>
+<!-- About Me Section Ends Here -->
+
+<!-- My Work Section Starts Here -->
+	<div class="section3-holder" id="section3">
+		<span class="about-me-head">My Work</span>
+
+		<div class="grand_parent">
+			<div class="parent">
+
+				<div onclick="opencard()" id="mob" class="child">
+
+					<!-- The Modal -->
+						<div id="myModal" class="modal">
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <div class="modal-header">
+						      <!-- <span class="close">&times;</span> -->
+						      <!-- <p>Sorry for the inconvinience</p> -->
+						    </div>
+						    <div class="modal-body">		
+							    <span>Sorry for the inconvinience</span>
+								    <div class="grand_parent">
+								    	<div class="parent">
+								    			<div class="subchild">	
+								    		Work in Progress
+								    		<img src="assets/workinprogress.png" height="300px"> 
+								    		</div>
+								    	</div>
+								    </div>
+						    </div>
+						    <div class="modal-footer">
+						      Click outside card to close it
+						    </div>
+						  </div>
+
+						</div>
+					Mobile App UI <i class="fa fa-mobile-phone"></i>
+				</div>
+				<div  onclick="opencard()" class="child">
+
+					Brochure <i class="fa fa-book" aria-hidden="true"></i>
+				</div>
+				<div  onclick="opencard()" class="child">
+						
+					ID Card  <i class="fa fa-id-badge" aria-hidden="true"></i>
+				</div>
+				<div  class="child" onclick="location.href='https://www.youtube.com/channel/UCWlv387s3h7ThjgViStKqbA'">	
+						YouTube Channel<i class="fa fa-youtube-play red" aria-hidden="true"></i>
+				</div>
+				<div  onclick="opencard()" class="child">
+						
+					Sketches <br> <i class="fa fa-paint-brush" aria-hidden="true"></i>
+				</div>
+				<div  onclick="opencard()" class="child">
+
+					Respawn Event Posters <br> <i class="fa fa-gamepad" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- My Work Section Ends Here -->
+
+<!-- Contact Me Section Starts Here -->
+	<div class="section4-holder" id="section4">
+		<span class="about-me-head">Contatc Me</span>
+		<span class="just-say-hi" style="color: white">Just Say Hi &#128400;&#127995;</span>
+			
+		<form id="my-form" class="parent-form"  action="https://formspree.io/f/xleokdzz" method="POST" >
+					  <input type="text" id="name" name="name" placeholder="Enter Your Good Name" required>
+			  <input type="email" id="email" name="email" placeholder="E-mail address" required>
+		  	  <input type="text" id="subject" name="subject" placeholder="Subject" required>
+			  <textarea  name="message" rows="10"></textarea> 
+			    <input class="submit-button" type="submit">
+		</form>
+		<div id="status" >
+			
+		</div>
+		<div style="margin-top: 15px;">
+
+			<i class="fa fa-facebook-square" aria-hidden="true" onMouseOver="this.style.color='#4267B2'"
+        onMouseOut="this.style.color='white'" style="cursor: pointer;color: white; font-size:30px; padding: 0 10px 0 10px;"></i>
+		<a href="https://www.instagram.com/_n.o_o.b_/">
+				<i class="fa fa-instagram" onMouseOver="this.style.color='#833ab4'"
+        		onMouseOut="this.style.color='white'" aria-hidden="true" style="cursor: pointer; color: white;font-size:30px; padding: 0 10px 0 10px; "></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCWlv387s3h7ThjgViStKqbA">
+        	<i class="fa fa-youtube-play" onMouseOver="this.style.color='#FF0000'"
+        onMouseOut="this.style.color='white'" aria-hidden="true" style="cursor: pointer; color: white;font-size:30px; padding: 0 10px 0 10px;"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/rohit-dhende-044835150">
+			<i class="fa fa-linkedin-square" onMouseOver="this.style.color='#0e76a8'"
+        onMouseOut="this.style.color='white'" aria-hidden="true" style="cursor: pointer; color: white;font-size:30px; padding: 0 10px 0 10px;"></i>
+    	</a>
+		</div>
+		
+	</div>
+<!-- Contact Me Section Ends Here -->
+<footer>
+	Website made by <a href="#jonsleve" class="green">@JonSleve</a> with &#10084;
+
+</footer>
+<script type="text/javascript" src="js/main.js">
+
+</script>
+</body>
+</html>
