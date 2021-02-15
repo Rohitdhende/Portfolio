@@ -433,9 +433,9 @@ color: grey;
 }
 
 .child:hover{
-		box-shadow: 0 0 3px #bac3c3;
+/*		box-shadow: 0 0 3px #bac3c3;
 	flex:1 1 200px;
-	height: 200px;
+	height: 200px;*/
 	color: white;
 	background-color: green;
 }
