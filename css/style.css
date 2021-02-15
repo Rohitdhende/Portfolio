@@ -423,6 +423,7 @@ transition: 0.1s;
 	cursor: pointer;
 	transition: 0.2s;
 	display: flex;
+	margin:20px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
