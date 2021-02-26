@@ -91,6 +91,7 @@ function scrollFunction() {
        document.getElementById("link1").style.opacity="1";
          document.getElementById("link1").style.animationDelay="0.5s";
     }
+
         if((document.body.scrollTop > 1000 && document.body.scrollTop < 1500) || (document.documentElement.scrollTop > 1000  && document.documentElement.scrollTop < 1500)){
         document.getElementById("d2").style.opacity = "0";
        document.getElementById("link2").style.opacity="0";
@@ -169,7 +170,3 @@ window.onclick = function(event) {
 
 //Top Button Code Ends here
 //<------------------------------------------------------------------------------------------------->
-
-
-
-

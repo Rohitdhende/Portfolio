@@ -1,0 +1,406 @@
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: 'Mulish', sans-serif;
+	color: white;
+}
+
+body{
+	background-color: black;
+
+}
+.section1{
+
+	height: 100vh;
+	/*border:2px solid white;*/
+	display: flex;
+	justify-content: center;
+}
+.navbar{
+	position: fixed; 
+	height: 80px;
+	width: 100%;
+	/*border:2px solid white;*/
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	background: black;
+	z-index: 1;
+	justify-content: space-around;
+
+}
+.backtohome{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	/*border:2px solid white;*/
+	/*margin-left: 50px;*/
+}
+.fa-arrow-left{
+	color: white;
+	font-size: 20px;
+
+}
+.fa-arrow-left:hover{
+	color: green;
+
+	cursor: pointer;
+}
+
+.heading{
+	/*border:2px solid white;*/
+}
+.green{
+	color: green;
+}
+
+li{
+	text-decoration: none;
+	display: inline-flex;
+	/*padding: 22px;*/
+	margin:0 20px;
+	
+	color:white;
+	cursor: pointer;
+
+}
+a{
+	text-decoration: none;
+	padding: 25px 0;
+}
+.section2{
+	height: 100vh;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+}
+.section3{
+	height: 100vh;
+	background-color: green;
+
+}
+.section4{
+	height: 100vh;
+	background-color: yellow;
+}
+.section5{
+	height: 100vh;
+	background-color: blue;
+}
+.section6{
+	height: 100vh;
+	background-color: grey;
+}
+
+.topnav {
+	overflow: hidden;
+	display: inline-flex;
+	/*border:2px solid red;*/
+
+}
+
+.topnav a {
+	display: flex;
+	flex-direction: column;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {  color: green;
+}
+
+.topnav a.active {
+	color: lightgreen;
+}
+
+.topnav .icon {
+	display: none;
+}
+.topnav .close{
+	display: none;
+}
+
+
+.grandparent{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	/*border:2px solid white;*/
+	height: 100vh;
+	color: grey;
+	font-size: 1.5rem;
+}
+
+
+.modal-parent{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	/*width: 80vw;*/
+	height: auto;
+
+}
+
+.modal-child{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*justify-content: space-around;*/
+}
+.modal-child .gallery a{
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+.parent{
+	/*border:2px solid white;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/*width: 80vw;*/
+	height: auto;
+	margin-top: 100px;
+}
+
+.child{
+	/*border:2px solid white;*/
+	text-decoration: none;
+	border:1px solid grey;
+	margin: 10px;
+	width: 200px;
+	height: 355px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.1s;
+	display: flex;
+	margin:20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 50px;
+	flex-direction: column;
+	font-size: 1.5rem;
+}
+.card {
+
+	text-decoration: none;
+	border:5px solid lightgreen;
+	/*margin: 10px;*/
+	width: 200px;
+	height: 350px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.1s;
+	display: flex;
+	margin:40px;
+	display: flex;
+
+	align-items: center;
+	/*justify-content: center;*/
+	flex-direction: column;
+	line-height: 50px;
+	flex-direction: column;
+	font-size: 0;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background:lightgreen;
+	transition-duration: 0.2s;
+}
+.card:hover{
+
+	font-size: 1.2rem;
+	height: 405px;
+	/*box-shadow: 0 8px 16px 0 rgba(255,255,255,0.2);*/
+	/*border:2px solid white;*/
+	/*border:2px solid green;*/
+	transition: 0.2s;
+	/*color: lightgreen;*/
+}
+.card:hover .container{
+	color: 	#202020;
+	font-weight: bolder;
+	transition: 0.1s;
+}
+.container {
+	/*padding: 2px 16px;*/
+	font-size: 1em;
+}
+.container b{
+	
+}
+.container p{
+	font-size: 	1rem;
+}
+
+/*.child:first-child{		
+background-image:linear-gradient(to top, rgb(200, 247, 197,1),rgba(255,0,0,0)),url('../assets/t1.png');
+background-repeat: no-repeat;
+background-size: contain;
+}
+.child:nth-child(2){		
+	background-image: url('../assets/f1.png');
+background-repeat: no-repeat;
+background-size: contain;
+}*/
+
+.element{
+	color: white;
+	/*margin-top: auto;*/
+	font-size: 1rem;
+}
+
+.child:hover{
+	background-image:url('../assets/t1.png');
+	border:1px solid green;
+	box-shadow: 0 0 5px #505050;
+	width: 210px;
+	height: 375px;
+	color: white;
+	/*box-shadow: 0 0 20px rgba(grey, grey, grey, 0.6);*/
+}
+.child:hover .element{
+	color: white;
+}
+
+@media screen and (max-width:900px) {
+	.topnav {
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+	.topnav .items{
+		margin-top:50px;
+	}
+	.topnav a {display: none;}
+	.topnav a.icon {
+		display: flex;
+
+		justify-content: right;
+		margin-left: 100px;
+	}
+	.close{
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.navbar{
+		height: auto;
+	}
+
+	.topnav.responsive .item{
+		margin-right: 100px;
+	}
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+		display: none;
+
+	}
+
+	.topnav.responsive .close{
+		position: absolute;
+		right: 42px;
+		top: 3px;
+	}
+	.topnav.responsive a {
+		/*border:2px solid green;*/
+
+		display: flex;
+		/*margin-right: 50px;*/
+		/*text-align: left;*/
+	}
+}
+
+
+
+/*Model Box*/
+/* The Modal (background) */
+.modal {
+	cursor: context-menu;
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	/* padding-top: 100px;*/ /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	color: black;
+	padding-top: 100px;
+	/* Location of the box */
+}
+
+
+
+
+/* Modal Content */
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+/* The Close Button */
+/*.close {
+	z-index: 1;
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  }*/
+
+
+  .modal-body {
+  	/*padding: 2px 16px;*/
+  }
+
+  .modal-footer {
+
+  	padding: 2px 16px;
+  	background-color: #5cb85c;
+  	color: white;
+  	font-size: 1rem;
+  }
+
+  .subchild{
+  	display: flex;
+  	justify-content: center;
+  	color:black;
+  }
+
+
