@@ -404,3 +404,9 @@ background-size: contain;
   }
 
 
+
+	@media screen and (min-width: 360px) and (max-width: 640px){
+		.section1{
+			height: auto;
+		}
+	}
