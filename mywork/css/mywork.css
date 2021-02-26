@@ -62,7 +62,7 @@ li{
 	display: inline-flex;
 	/*padding: 22px;*/
 	margin:0 20px;
-	
+
 	color:white;
 	cursor: pointer;
 
@@ -73,26 +73,26 @@ a{
 }
 .section2{
 	height: 100vh;
-	background-color: grey;
+	background-color: black;
 	display: flex;
 	justify-content: center;
 }
 .section3{
 	height: 100vh;
-	background-color: green;
+	background-color: black;
 
 }
 .section4{
 	height: 100vh;
-	background-color: yellow;
+	background-color: black;
 }
 .section5{
 	height: 100vh;
-	background-color: blue;
+	background-color: black;
 }
 .section6{
 	height: 100vh;
-	background-color: grey;
+	background-color: black;
 }
 
 .topnav {
