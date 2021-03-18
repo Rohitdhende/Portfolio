@@ -21,7 +21,9 @@ body{
 	background-color: black;
 
 }
-
+.g-ytsubscribe{
+	border:2px solid white;
+}
 li{
 	text-decoration: none;
 	display: inline-flex;
@@ -468,6 +470,7 @@ transition: 0.1s;
 }
 
 .child:hover{
+	    transform: scale(1.1);
 /*		box-shadow: 0 0 3px #bac3c3;
 	flex:1 1 200px;
 	height: 200px;*/
@@ -524,14 +527,12 @@ transition: 0.1s;
 	}
 	.submit-button{
 		width: 60px; 
-
 		cursor: pointer;
 	}
 	.submit-button:hover{
 		color: green;
 		border-bottom: 1px solid green;
 		width: 45px;
-
 		transition:0.2s;
 	}
 

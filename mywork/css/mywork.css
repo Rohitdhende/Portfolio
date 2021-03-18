@@ -291,18 +291,7 @@ background-size: contain;
 	font-size: 1rem;
 }
 
-.child:hover{
-	background-image:url('../assets/t1.png');
-	border:1px solid green;
-	box-shadow: 0 0 5px #505050;
-	width: 210px;
-	height: 375px;
-	color: white;
-	/*box-shadow: 0 0 20px rgba(grey, grey, grey, 0.6);*/
-}
-.child:hover .element{
-	color: white;
-}
+
 
 @media screen and (max-width:900px) {
 	.topnav {
@@ -505,8 +494,8 @@ background-size: contain;
 			height: auto;
 	}
 	.brochure a img:hover{
-width: 42vw;
-	transition: all 0.2s ease;
+    transform: scale(1.05);
+	transition: 0.2s;
 	border:5px solid lightgreen;
 	}
 	
