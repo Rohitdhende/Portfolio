@@ -76,7 +76,7 @@
 			<p>I am a passionate Graphic Designer. Having 4+ years of experience in this field.</p>
 			<p>Currently pursing an Engineering Degree in IT stream.</p>
 			<p>Had completed Full Stack Developement Course in well known entity(theSurge).</p>
-			<p>Also have a YouTube Channel named as <span class="green">JonSleve</span> with around 	<span id="subCount"></span> subscribers. I do upload Sketching and Gaming related videos.</p>
+			<p>Also have a YouTube Channel named as <span class="green">JonSleve</span> with around <span id="subCount"></span> subscribers. I do upload Sketching and Gaming related videos.</p>
 			<p>Photoshop is Love &#10084;</p>
 
 		
@@ -85,20 +85,23 @@
 				const youtubeKey = 'AIzaSyC7ijVpvRa30FGDNIqgNd-VlIxBU1XJ0G8';
 				const youtubeUser = 'UCWlv387s3h7ThjgViStKqbA';
 				const subCount = document.getElementById('subCount');
-				 const delay = 10; // 10 min
-
-				let getSubscribers = () =>{
-					fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`).then(response=>{
-						return response.json()
-					}).then(data=>{
-						console.log(data);
-						subCount.innerHTML = data["items"][0].statistics.subscriberCount;
-					})
-				}
-				setInterval(()=>{
-					getSubscribers();
-				},delay);
+			
 				
+    let getSubscribers = () => {
+
+        fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+        .then(response => {
+            return response.json()
+        })
+        .then(data => {
+            console.log(data);
+            subCount.innerHTML = data["items"][0].statistics.subscriberCount;
+        })
+
+    }
+
+   
+        getSubscribers();
 
 
 

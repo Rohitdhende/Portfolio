@@ -470,7 +470,7 @@ transition: 0.1s;
 }
 
 .child:hover{
-	    transform: scale(1.1);
+	    /*transform: scale(1.1);*/
 /*		box-shadow: 0 0 3px #bac3c3;
 	flex:1 1 200px;
 	height: 200px;*/
