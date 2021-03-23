@@ -95,7 +95,6 @@
             return response.json()
         })
         .then(data => {
-            console.log(data);
             subCount.innerHTML = data["items"][0].statistics.subscriberCount;
         })
 
