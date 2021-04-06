@@ -311,16 +311,21 @@ background-size: contain;
 
 
 
-@media screen and (max-width:900px) {
-	.topnav {
+@media screen and (max-width: 900px) {
+		.topnav {
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
 	}
-	.topnav .items{
+		.topnav .items{
 		margin-top:50px;
 	}
 	.topnav a {display: none;}
+	.navbar{
+		height: auto;
+		transition: 0.5s;
+	}
+		.topnav a {display: none;}
 	.topnav a.icon {
 		display: flex;
 
@@ -329,12 +334,6 @@ background-size: contain;
 	}
 	.close{
 		display: flex;
-	}
-}
-
-@media screen and (max-width: 900px) {
-	.navbar{
-		height: auto;
 	}
 
 	.topnav.responsive .item{
@@ -359,7 +358,6 @@ background-size: contain;
 		/*text-align: left;*/
 	}
 }
-
 
 
 /*Model Box*/
@@ -448,7 +446,7 @@ background-size: contain;
   }
 
 
-	@media screen and (min-width: 360px) and (max-width: 640px){
+	@media screen and (min-width: 320px) and (max-width: 640px){
 		.section6 img{
 			width: 90vw;
 			margin-bottom:10px;
@@ -489,8 +487,10 @@ background-size: contain;
 	}
 
 
-	@media screen and (min-width: 640px) and (max-width: 896px) {
-	
+	@media screen and (min-width: 640px) and (max-width: 1024px) {
+	.section3{
+		height: auto;
+	}
 	}
 
 	.brochure{

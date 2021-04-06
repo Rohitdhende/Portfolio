@@ -153,6 +153,7 @@ a:hover{
 
 	.exclamation{
 		color: green;
+		font-family: 'VT323', monospace;
 	}
 
 	.line2{

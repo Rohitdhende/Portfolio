@@ -42,30 +42,31 @@ function mouseOut3() {
 
 //menu icon
 
-function rsd1(){
-  document.getElementById("d1").style.opacity = "0";
-  document.getElementById("link1").style.opacity="0";
-  document.getElementById("d2").style.opacity = "1";
-  document.getElementById("link2").style.opacity="1";
-  document.getElementById("d3").style.opacity = "1";
-  document.getElementById("link3").style.opacity="1";
-}
-function rsd2(){
-  document.getElementById("d2").style.opacity = "0";
-  document.getElementById("link2").style.opacity="0";
-    document.getElementById("d1").style.opacity = "1";
-  document.getElementById("link1").style.opacity="1";
-    document.getElementById("d3").style.opacity = "1";
-  document.getElementById("link3").style.opacity="1";
-}
-function rsd3(){
-  document.getElementById("d3").style.opacity = "0";
-  document.getElementById("link3").style.opacity="0";
-    document.getElementById("d1").style.opacity = "1";
-  document.getElementById("link1").style.opacity="1";
-    document.getElementById("d2").style.opacity = "1";
-  document.getElementById("link2").style.opacity="1";
-}
+// function rsd1(){
+//   document.getElementById("d1").style.opacity = "0";
+//   document.getElementById("link1").style.opacity="0";
+//   document.getElementById("d2").style.opacity = "1";
+//   document.getElementById("link2").style.opacity="1";
+//   document.getElementById("d3").style.opacity = "1";
+//   document.getElementById("link3").style.opacity="1";
+// }
+// function rsd2(){
+//   document.getElementById("d2").style.opacity = "0";
+//   document.getElementById("link2").style.opacity="0";
+//     document.getElementById("d1").style.opacity = "1";
+//   document.getElementById("link1").style.opacity="1";
+//     document.getElementById("d3").style.opacity = "1";
+//   document.getElementById("link3").style.opacity="1";
+// }
+// function rsd3(){
+//   document.getElementById("d3").style.opacity = "0";
+//   document.getElementById("link3").style.opacity="0";
+//     document.getElementById("d1").style.opacity = "1";
+//   document.getElementById("link1").style.opacity="1";
+//     document.getElementById("d2").style.opacity = "1";
+//   document.getElementById("link2").style.opacity="1";
+// }
+
 
 
 
@@ -81,37 +82,38 @@ function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
     mybutton.style.border = "none";
-    if((document.body.scrollTop > 500 && document.body.scrollTop < 1000) || (document.documentElement.scrollTop > 500  && document.documentElement.scrollTop < 1000)){
-        document.getElementById("d1").style.opacity = "0";
-       document.getElementById("link1").style.opacity="0";
-       document.getElementById("link1").style.animationDelay="0.5s";
-    }
-    else{
-      document.getElementById("d1").style.opacity = "1";
-       document.getElementById("link1").style.opacity="1";
-         document.getElementById("link1").style.animationDelay="0.5s";
-    }
 
-        if((document.body.scrollTop > 1000 && document.body.scrollTop < 1500) || (document.documentElement.scrollTop > 1000  && document.documentElement.scrollTop < 1500)){
-        document.getElementById("d2").style.opacity = "0";
-       document.getElementById("link2").style.opacity="0";
-       document.getElementById("link1").style.animationDelay="0.5s";
-    }
-    else{
-      document.getElementById("d2").style.opacity = "1";
-       document.getElementById("link2").style.opacity="1";
-         document.getElementById("link1").style.animationDelay="0.5s";
-    }
-            if((document.body.scrollTop > 1500 && document.body.scrollTop < 2000) || (document.documentElement.scrollTop > 1500  && document.documentElement.scrollTop < 2000)){
-        document.getElementById("d3").style.opacity = "0";
-       document.getElementById("link3").style.opacity="0";
-       document.getElementById("link1").style.animationDelay="0.5s";
-    }
-    else{
-      document.getElementById("d3").style.opacity = "1";
-       document.getElementById("link3").style.opacity="1";
-         document.getElementById("link1").style.animationDelay="0.5s";
-    }
+    // if((document.body.scrollTop > 500 && document.body.scrollTop < 1000) || (document.documentElement.scrollTop > 500  && document.documentElement.scrollTop < 1000)){
+    //     document.getElementById("d1").style.opacity = "0";
+    //    document.getElementById("link1").style.opacity="0";
+    //    document.getElementById("link1").style.animationDelay="0.5s";
+    // }
+    // else{
+    //   document.getElementById("d1").style.opacity = "1";
+    //    document.getElementById("link1").style.opacity="1";
+    //      document.getElementById("link1").style.animationDelay="0.5s";
+    // }
+
+    //     if((document.body.scrollTop > 1000 && document.body.scrollTop < 1500) || (document.documentElement.scrollTop > 1000  && document.documentElement.scrollTop < 1500)){
+    //     document.getElementById("d2").style.opacity = "0";
+    //    document.getElementById("link2").style.opacity="0";
+    //    document.getElementById("link1").style.animationDelay="0.5s";
+    // }
+    // else{
+    //   document.getElementById("d2").style.opacity = "1";
+    //    document.getElementById("link2").style.opacity="1";
+    //      document.getElementById("link1").style.animationDelay="0.5s";
+    // }
+    //         if((document.body.scrollTop > 1500 && document.body.scrollTop < 2000) || (document.documentElement.scrollTop > 1500  && document.documentElement.scrollTop < 2000)){
+    //     document.getElementById("d3").style.opacity = "0";
+    //    document.getElementById("link3").style.opacity="0";
+    //    document.getElementById("link1").style.animationDelay="0.5s";
+    // }
+    // else{
+    //   document.getElementById("d3").style.opacity = "1";
+    //    document.getElementById("link3").style.opacity="1";
+    //      document.getElementById("link1").style.animationDelay="0.5s";
+    // }
 
   } else {
     mybutton.style.display = "none";
@@ -167,6 +169,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+
 
 //Top Button Code Ends here
 //<------------------------------------------------------------------------------------------------->
