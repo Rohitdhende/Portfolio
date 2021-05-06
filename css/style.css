@@ -153,7 +153,11 @@ a:hover{
 
 	.exclamation{
 		color: green;
+<<<<<<< HEAD
 		font-family: 'VT323', monospace;
+=======
+		/*font-family: 'VT323', monospace;*/
+>>>>>>> d0670a1... Few changes
 	}
 
 	.line2{
