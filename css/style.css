@@ -203,6 +203,11 @@ a:hover{
 
 		.about-me-container{
 			line-height: 5px;
+			font-size: 20px;
+		}
+		.about-me-container p{
+			
+			font-size: 20px;
 		}
 
 		.grandparent{
@@ -324,12 +329,14 @@ a:hover{
 		a{
 			font-size: 0.8rem;
 		}
-		.about-me-container p{
+		.about-me-container{
 			font-size: 20px;
 		}
 
 		.about-me-container p{
 			line-height:30px;
+		
+			font-size: 20px;
 		}
 
 	}
@@ -407,7 +414,7 @@ a:hover{
 		padding: 0 30px 0 30px;
 		line-height: 50px;
 		width: 80vw;
-		font-size: 20px;
+		/*font-size: 20px;*/
 	}
 
 	.green{
