@@ -55,12 +55,6 @@ a{
 	padding: 25px 0;
 }
 
-/*
-a:hover{
-    color: red;
-    font-size: 1rem;
-}
-*/
 .connectives{
 	display: inline-flex;
 	text-decoration: none;
@@ -83,11 +77,6 @@ a:hover{
 	border-radius: 50%;
 
 }
-/*.dots:hover{
-
-	border: 2px solid blue;
-	}*/
-
 
 	.section1-holder{
 		display: flex;
@@ -99,8 +88,6 @@ a:hover{
 	}
 
 	.left-holder{
-		/*min-width: 80px;*/
-		/*border:2px solid white;*/
 		width: 250px;
 		z-index: -1;
 		flex-shrink: 1;
@@ -126,17 +113,13 @@ a:hover{
 
 	.logo{
 		height:60px; 
-		/*padding-left:20px; */
 		width: auto;
 	}
 	.right-content{
-		/*border:2px solid white;*/
 		width: 250px;
-		/*min-width: 80px;*/
 		background-color: black;
 		height: 400px;
-		border-left: 2px solid white;
-		
+		border-left: 1px solid grey;
 	}
 	#me{
 		height: 400px;
@@ -153,11 +136,7 @@ a:hover{
 
 	.exclamation{
 		color: green;
-<<<<<<< HEAD
-		font-family: 'VT323', monospace;
-=======
 		/*font-family: 'VT323', monospace;*/
->>>>>>> d0670a1... Few changes
 	}
 
 	.line2{
@@ -255,11 +234,14 @@ a:hover{
 		p{
 			font-size: 20px;
 		}
+		footer{
+				margin-top: 10px;
+		}
 	}
 
-	@media screen and (min-width: 320px) and (max-width: 640px){
+	@media screen and (min-width: 250px) and (max-width: 640px){
 		.parent-form{
-			width: 90vw;
+			max-width: 90vw;
 		}
 .connectives{
 	font-size: 0.8rem;
@@ -338,11 +320,13 @@ a:hover{
 		
 			font-size: 20px;
 		}
+			footer{
+
+				margin-top: 10px;
+		}
+
 
 	}
-
-
-
 	.section2-holder{
 		height: auto;
 		width: 100%;
@@ -392,7 +376,7 @@ a:hover{
 	}
 
 	.section4-holder{
-		height: 100vh;
+		height: auto;
 		width: 100%;
 		display: flex;
 		align-items: center;
@@ -402,9 +386,7 @@ a:hover{
 	.just-say-hi{
 		margin-top: 40px;
 	}
-/*p{
-	text-align: center;
-	}*/
+
 	h1{
 		margin-top: 40px;
 		color: white;
@@ -414,7 +396,6 @@ a:hover{
 		padding: 0 30px 0 30px;
 		line-height: 50px;
 		width: 80vw;
-		/*font-size: 20px;*/
 	}
 
 	.green{
@@ -431,8 +412,6 @@ a:hover{
 		font-size: 1.5rem;
 	}
 
-
-
 	.parent{
 		display: flex;
 		flex-wrap: wrap;
@@ -443,13 +422,9 @@ a:hover{
 
 
 	.subchild{
-		/*border:2px solid red;*/
 		text-align: center;
-		/*border:1px solid grey;*/
-		/*flex:1 1 200px;*/
 		margin: 20px 0px;
 		height:auto;
-		/*border-radius: 20px;*/
 		cursor: pointer;
 		transition: 0.2s;
 		display: flex;
@@ -463,25 +438,10 @@ a:hover{
 		object-fit: contain;
 	}
 
-	/*Uncomment after*/
-
-/*.subchild:hover img{
-	box-shadow: 0 0 10px grey;
-	height: 340px ;
-	color: white;
-	transition: 0.2s;
-	border-radius: 10px;
-}
-.subchild:not( :hover ) img{
-transition: 0.1s;
-}*/
-
 .child{
-	/*border:2px solid white;*/
 	text-decoration: none;
 	border:1px solid grey;
 	flex:1 1 190px;
-
 	height: 190px;
 	border-radius: 20px;
 	cursor: pointer;
@@ -498,34 +458,17 @@ transition: 0.1s;
 }
 
 .child:hover{
-	    /*transform: scale(1.1);*/
-/*		box-shadow: 0 0 3px #bac3c3;
-	flex:1 1 200px;
-	height: 200px;*/
 	color: white;
 	background-color: green;
 }
 
-/*
-.about-me-para{
-	text-align: justify;
-	width: 850px;
-	}*/
-
-
-
-
 	.parent-form{
-		/*position: relative;*/
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
 		margin-top: 10px;
-		/*margin-left: 40px;*/
-
-		/*border:2px solid white;*/
-		width: 340px;
+		width: 320px;
 		padding:0 10px 0 10px;
 
 	}
@@ -533,7 +476,6 @@ transition: 0.1s;
 		width: 100%;
 		background:black;
 		color: white;
-
 	}
 
 	textarea:focus{
@@ -565,19 +507,17 @@ transition: 0.1s;
 	}
 
 	footer{
-
 		width: 100%;
 		text-align: center;
 		color: white;
 		font-size: 1rem;
 		padding: 5px 0 5px 0;
+		margin-top: 20px;
 	}
 
 	.fa .fa-facebook-square{
 		padding: 10px;
 	}
-
-
 
 	/* relevant styles */
 	.img__wrap {
@@ -586,16 +526,11 @@ transition: 0.1s;
 		justify-content: center;
 		align-items: center;
 		cursor: pointer;
-
-/*  height: 200px;
-width: 257px;*/
 }
 
 .img__description {
-	/*cursor: url("assets/cursor.png"),auto;*/
-
 	position: absolute;
-	padding-left: 60px;
+	padding-top: 90%;
 	color: lightgreen;
 	visibility: hidden;
 	opacity: 0;
@@ -674,34 +609,13 @@ width: 257px;*/
 	from {top:-300px; opacity:0}
 	to {top:0; opacity:1}
 }
-
-/* The Close Button */
-/*.close {
-	z-index: 1;
-  color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-  }*/
-
   .modal-header {
 
   	text-align: center;
   	padding: 2px 16px;
-  	/*background-color: #5cb85c;*/
   	color: black;
   }
 
-  .modal-body {
-  	/*padding: 2px 16px;*/
-  }
 
   .modal-footer {
 
