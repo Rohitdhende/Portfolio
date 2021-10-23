@@ -573,7 +573,7 @@ a{
 .img__description {
 	position: absolute;
 	padding-top: 90%;
-	color: lightgreen;
+	color: black;
 	visibility: hidden;
 	opacity: 0;
 	font-size: 1rem;
