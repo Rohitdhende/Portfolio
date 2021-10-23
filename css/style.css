@@ -40,6 +40,19 @@ body{
 .g-ytsubscribe{
 	border:2px solid white;
 }
+.contact-me-container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;  
+	align-items: center;
+}
+.profiles{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 li{
 	text-decoration: none;
 	display: inline-flex;
@@ -200,6 +213,21 @@ a{
 			width: auto;
 			transition: 0.5s;
 		}
+		.contact-me-container{
+			border:2px solid red;
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;  
+			align-items: center;
+		}
+		.contact-me-image-containe{
+			width: 100%; 
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.section1-holder{
 			width: auto;
 	
@@ -258,8 +286,26 @@ a{
 			width: auto;
 			transition: 0.5s;
 		}
+		.contact-me-container{
+			
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;  
+			align-items: center;
+		}
+		.contact-me-image-containe{
+			border:2px solid red;
 
-		
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.just-say-hi{
+			display: flex;
+			justify-content: center;
+		}
 				.section1-holder{
 			width: auto;
 	
@@ -381,10 +427,6 @@ a{
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-	}
-
-	.just-say-hi{
-		margin-top: 40px;
 	}
 
 	h1{
@@ -551,7 +593,6 @@ a{
 	padding:5px;
 	font-size: 0.8rem;
 	transition: 0.5s;
-
 }
 
 .emote{
