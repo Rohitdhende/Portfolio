@@ -26,7 +26,8 @@ body{
 }
 /*Navbar*/
 .navbar{
-	height: 80px;
+	min-height: 120px;
+	height: auto;
 	width: 100%;
 	position: fixed;
 	display: flex;
@@ -75,18 +76,16 @@ a{
 	line-height: 10px;
 	font-size: 1rem;	
 	justify-content: center;
-
-
+	align-items: center;
 }
 
 .dots{
-	margin-top: 20px;
+	margin-top: 40px;
 	position: absolute;
 	display: flex;
 	height:8px;
 	width: 8px;
 	background-color: white;
-	/*border: 5px solid white;*/
 	border-radius: 50%;
 
 }
@@ -140,7 +139,11 @@ a{
 		content: "Jonsleve";
 	}
 
-
+	.just-say-hi{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	.heading-text{
 
 		color:white;
@@ -206,15 +209,20 @@ a{
 			height: auto;
 		}
 		.navbar{
-			height: 120px;
+			height: auto;
+			padding: 5px 0;
 		}
 		#me{
 			height: 300px;
 			width: auto;
 			transition: 0.5s;
 		}
+		.just-say-hi{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.contact-me-container{
-			border:2px solid red;
 			width: 100%;
 			height: auto;
 			display: flex;
@@ -222,8 +230,8 @@ a{
 			justify-content: center;  
 			align-items: center;
 		}
-		.contact-me-image-containe{
-			width: 100%; 
+		.contact-me-image-container{
+			width: auto; 
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -279,15 +287,20 @@ a{
 		}
 
 		.navbar{
-			height: 120px;
+			height: auto;
+			padding: 5px;
 		}
 		#me{
-			height: 230px;
+			height: 190px;
 			width: auto;
 			transition: 0.5s;
 		}
+		.just-say-hi{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.contact-me-container{
-			
 			width: 100%;
 			height: auto;
 			display: flex;
@@ -295,9 +308,8 @@ a{
 			justify-content: center;  
 			align-items: center;
 		}
-		.contact-me-image-containe{
-			border:2px solid red;
-
+		.contact-me-image-container{
+			width: 100%; 
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -305,6 +317,7 @@ a{
 		.just-say-hi{
 			display: flex;
 			justify-content: center;
+			align-items: center;
 		}
 				.section1-holder{
 			width: auto;
@@ -385,11 +398,10 @@ a{
 
 
 	.about-me-head{
-		margin-top: 120px;
+		margin-top: 130px;
 		color: green;
 		width: 100%;
 		text-align: center;
-		/*opacity: 0;*/
 	}
 
 
