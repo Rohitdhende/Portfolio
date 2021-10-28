@@ -275,7 +275,112 @@ a{
 		}
 	}
 
-	@media screen and (min-width: 250px) and (max-width: 640px){
+	@media screen and (min-width: 250px) and (max-width: 321px){
+		.parent-form{
+			max-width: 90vw;
+		}
+.connectives{
+	font-size: 0.8rem;
+}
+.emote{
+	height: 30px;
+}
+		#me{
+			height: 180px;
+			width: auto;
+			transition: 0.5s;
+		}
+		.just-say-hi{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.contact-me-container{
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;  
+			align-items: center;
+		}
+		.contact-me-image-container{
+			width: 100%; 
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.just-say-hi{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+				.section1-holder{
+			width: auto;
+	
+		}
+			.section2-holder{
+			width: auto;
+			height: auto;
+		}
+			.section3-holder{
+			width: auto;
+			height: auto;
+		}
+			.section4-holder{
+			width: auto;
+			height: auto;
+		}
+		.left-holder
+		{
+			width: 250px;
+			line-height: 30px;
+
+		}
+		.left-holder p{
+			font-size: 20px;
+		}
+		.right-content{
+			width: 250px;
+			height: 230px;
+		}
+
+		.heading-text{
+			font-size: 20px;
+		}
+		.exclamation{
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+
+		.line2{
+			font-size: 10px;
+		}
+
+		p{
+			font-size: 10px;
+
+		}
+
+		a{
+			font-size: 0.8rem;
+		}
+		.about-me-container{
+			font-size: 20px;
+		}
+
+		.about-me-container p{
+			line-height:30px;
+		
+			font-size: 20px;
+		}
+			footer{
+
+				margin-top: 10px;
+		}
+	}
+
+	@media screen and (min-width: 321px) and (max-width: 640px){
 		.parent-form{
 			max-width: 90vw;
 		}
@@ -291,7 +396,7 @@ a{
 			padding: 5px;
 		}
 		#me{
-			height: 190px;
+			height: 230px;
 			width: auto;
 			transition: 0.5s;
 		}
